@@ -16,7 +16,7 @@ convert each letter of the plaintext into its number, add a constant to that num
 convert back to letters using the same map.  Thus, the plaintext "BABY" is encoded with a 
 shift constant of '3' to become
 
-    BABY ->  2 1 2 25
+    BABY -> 2 1 2 25
          -> (2+3) (1+3) (2+3) (25+3)
          -> 5 4 5 2
          -> EDEB
@@ -32,10 +32,12 @@ This program should allow the user to input a unit of text and to specify a shif
 should return the encoded text.
 
 Intermediate Challenge 1
+
 Display the output of the program as an animation.  The output starts as the entered plaintext, 
 and it converts to the encrypted text letter-by-letter, randomly (like when movies show codes 
 being encrypted and decrypted).
 
 Intermediate Challenge 2
+
 Extend the program to scrape and encode a paragraph of text from Wikipedia, selected randomly 
 or by whichever criteria you like.
