@@ -16,10 +16,10 @@ convert each letter of the plaintext into its number, add a constant to that num
 convert back to letters using the same map.  Thus, the plaintext "BABY" is encoded with a 
 shift constant of '3' to become
 
-BABY ->  2 1 2 25
-     -> (2+3) (1+3) (2+3) (25+3)
-     -> 5 4 5 2
-     -> EDEB
+    BABY ->  2 1 2 25
+         -> (2+3) (1+3) (2+3) (25+3)
+         -> 5 4 5 2
+         -> EDEB
     
 (notice that we "wrap around" back to A=1 when adding the constant takes us past Z=26 so that 
 25+3 goes to 2).
